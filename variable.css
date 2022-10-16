@@ -1,0 +1,19 @@
+:root{
+    --base : #7FFF00;
+    --spacing : 10px;
+    --blur : 10px
+
+}
+
+img{
+    width: 20%;
+    height: 20%;
+    margin: 20px;
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+
+.h1{
+    color: var(--base);
+}
